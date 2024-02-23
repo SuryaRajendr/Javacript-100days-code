@@ -18,3 +18,8 @@ let arr = [1, 2, 3];
 arr.splice(2, 1);
 
 console.log(arr); // [1, 2]
+
+
+console.log(2 + true); // 3 because true is 1 + - coercion
+console.log('5' - - '3'); // 8
+console.log(null == undefined); // true
